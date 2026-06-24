@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Generated data -- large, regenerable, should never be committed
+raw_numeric_data/
+dataset/
+scanned_data/
+
+# Trained model weights -- large binary, regenerable by running model_training.py
+*.pth
+*.pt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
